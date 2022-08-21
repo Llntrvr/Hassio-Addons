@@ -14,7 +14,7 @@
   ],
   "homeassistant": "0.115.0",
   "startup": "system",
-  "image": "ghcr.io/llntrvr/ha-mopidy-{arch}",
+  "image": "ghcr.io/poeschl/ha-mopidy-{arch}",
   "audio": true,
   "devices": ["/dev/snd"],
   "map": ["share:rw", "media:rw"],
